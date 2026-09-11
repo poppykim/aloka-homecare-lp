@@ -1,18 +1,365 @@
-<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Aloka Homecare | Secretome & Stem Cell Care</title><meta name="description" content="Informasi Secretome, Stem Cell, Secretome Topical Gel, dan layanan home visit Aloka Homecare."><style>
-:root{--ink:#123c3b;--teal:#079b88;--pale:#effcf8;--line:#d9eee8;--muted:#58706e}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.55}.wrap{max-width:1080px;margin:auto;padding:0 22px}header{position:sticky;top:0;background:#fffffff2;backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:21px;font-weight:800}.brand span{color:var(--teal)}.btn{display:inline-block;background:var(--teal);color:#fff;text-decoration:none;font-weight:700;padding:13px 20px;border-radius:999px}.btn.alt{background:#fff;color:var(--ink);border:1px solid #b9ddd5}.hero{background:linear-gradient(145deg,#effcf8,#fff);padding:72px 0 58px}.eyebrow{font-size:13px;font-weight:800;letter-spacing:.08em;color:var(--teal)}h1{font-size:clamp(42px,7vw,72px);line-height:1.02;max-width:760px;margin:12px 0 22px}h2{font-size:34px;margin:0 0 12px}.lead{font-size:19px;color:var(--muted);max-width:700px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.trust{display:flex;gap:10px;flex-wrap:wrap;margin-top:30px}.pill{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:13px;font-weight:700}.section{padding:64px 0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:18px;padding:25px;background:#fff}.card h3{font-size:23px;margin:0 0 8px}.price{font-size:27px;font-weight:800;color:var(--teal);margin:18px 0 4px}.strike{text-decoration:line-through;color:#80918f;font-size:15px}.note{font-size:13px;color:#6d7e7c}.info{background:var(--pale)}.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}.box{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px}.cta{background:var(--ink);color:#fff;border-radius:24px;padding:38px}.cta p{color:#d9e8e5}.cta .btn{background:#fff;color:var(--ink)}footer{padding:32px 0;color:#6c7d7b;font-size:13px}@media(max-width:760px){.grid,.two{grid-template-columns:1fr}.hero{padding-top:48px}.nav{height:64px}.nav .btn{padding:10px 14px;font-size:13px}}
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Aloka Homecare | Secretome & Stem Cell Care</title>
+<meta name="description" content="Informasi Secretome, Stem Cell, Secretome Topical Gel, promo, dan layanan home visit tenaga medis berizin.">
+<style>
+:root{
+  --teal:#0b8e86; --teal2:#06746e; --dark:#143e3c; --muted:#657e7b;
+  --mint:#eaf8f6; --mint2:#d9f2ee; --line:#dcebea; --white:#fff;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;color:var(--dark);background:#fff;line-height:1.55}
+a{text-decoration:none;color:inherit}
+img{display:block;max-width:100%}
+.container{width:min(1180px,92%);margin:auto}
+.section{padding:72px 0}
+.kicker{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid #9bd8d2;border-radius:999px;background:#f6fffd;color:var(--teal2);font-size:12px;font-weight:800;letter-spacing:.4px}
+h1,h2,h3,p{margin-top:0}
+h1{font-size:clamp(44px,6vw,76px);line-height:1.02;letter-spacing:-2px;margin-bottom:22px}
+h2{font-size:clamp(31px,4vw,48px);line-height:1.08;margin-bottom:14px}
+h3{font-size:22px;margin-bottom:8px}
+.lead{font-size:18px;color:#506d69;max-width:650px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 22px;border-radius:999px;background:linear-gradient(135deg,var(--teal),#0aa57d);color:#fff;font-weight:800;border:0;box-shadow:0 10px 25px rgba(7,126,118,.18)}
+.btn.alt{background:#fff;color:var(--teal2);border:1px solid #9ed0cc;box-shadow:none}
+.wa-icon{width:19px;height:19px;flex:0 0 19px}
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid #e7f0ef}
+.nav-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{height:48px;width:auto}
+.navlinks{display:flex;align-items:center;gap:24px;font-size:14px;font-weight:700;color:#355c58}
+.navlinks .btn{padding:11px 17px}
+.hero{padding:58px 0 46px;background:
+radial-gradient(circle at 10% 20%,rgba(143,226,216,.28),transparent 28%),
+radial-gradient(circle at 90% 10%,rgba(206,244,237,.8),transparent 35%),
+linear-gradient(135deg,#f9fffe,#edf9f7)}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.hero-media{position:relative;border-radius:28px;overflow:hidden;box-shadow:0 25px 60px rgba(29,80,76,.18);background:#ddd}
+.hero-media img{width:100%;height:500px;object-fit:cover}
+.price-badge{position:absolute;right:18px;bottom:18px;width:190px;height:190px;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;background:rgba(4,101,94,.93);color:#fff;border:5px solid rgba(255,255,255,.7);box-shadow:0 12px 30px rgba(0,0,0,.2)}
+.price-badge del{opacity:.7}
+.price-badge strong{font-size:31px;color:#ffe86f}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}
+.trust{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.trust span{padding:10px 13px;border-radius:12px;background:#fff;border:1px solid #e0efed;font-size:13px;font-weight:700;color:#466662}
+.section-title{text-align:center;max-width:780px;margin:0 auto 38px}
+.section-title p{color:var(--muted)}
+.explain{display:grid;grid-template-columns:1fr .9fr;gap:42px;align-items:center;padding:34px 0;border-bottom:1px solid #e7efee}
+.explain.reverse{grid-template-columns:.9fr 1fr}
+.explain-media{border-radius:24px;overflow:hidden;background:#eef8f7;box-shadow:0 12px 34px rgba(16,88,81,.08)}
+.explain-media img{width:100%;height:360px;object-fit:cover}
+.quote{margin:20px 0;padding:18px 20px;background:var(--mint);border-left:4px solid var(--teal);border-radius:12px;color:#365d59}
+.compare-wrap{background:#f3fbfa}
+.compare{overflow:auto;border-radius:18px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(16,88,81,.05)}
+table{width:100%;border-collapse:collapse;background:#fff;min-width:720px}
+th,td{padding:16px 18px;border-bottom:1px solid #e5efee;text-align:left;vertical-align:top}
+th{background:var(--teal2);color:#fff}
+td:first-child{font-weight:800;color:#214d49}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{border:1px solid var(--line);border-radius:20px;background:#fff;padding:14px;box-shadow:0 14px 34px rgba(18,82,76,.07)}
+.card.featured{border:2px solid #4cb9af;background:linear-gradient(180deg,#f8fffe,#edf9f6)}
+.card img{width:100%;height:220px;object-fit:cover;border-radius:15px;background:#eef7f6}
+.card-body{padding:16px 4px 6px}
+.tag{font-size:11px;font-weight:900;letter-spacing:.7px;color:var(--teal2);margin-bottom:7px}
+.card p{color:var(--muted);font-size:14px}
+.price{font-size:29px;font-weight:900;color:var(--teal2);margin:14px 0}
+.old{display:block;color:#8ba09d;text-decoration:line-through;font-size:14px;font-weight:500}
+.home{background:linear-gradient(135deg,#eef9f7,#f9fffe)}
+.home-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:center}
+.home-photo{border-radius:24px;overflow:hidden;box-shadow:0 14px 35px rgba(17,77,72,.12)}
+.home-photo img{width:100%;height:440px;object-fit:cover}
+.check{display:flex;gap:12px;margin:16px 0;color:#355d59}
+.dot{width:24px;height:24px;border-radius:50%;background:var(--teal);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px;flex:0 0 24px}
+.regs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.reg{padding:18px;border-radius:16px;background:#fff;border:1px solid var(--line)}
+.reg small{display:block;color:#78918e;margin-bottom:4px}
+.faq{max-width:900px;margin:auto}
+.faq details{border-bottom:1px solid #dfecea;padding:16px 4px}
+.faq summary{cursor:pointer;font-weight:800;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq p{color:var(--muted);margin:10px 0 0}
+.cta{padding:34px;border-radius:26px;background:linear-gradient(135deg,#0b8179,#0bb397);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.cta p{margin-bottom:0;opacity:.9}
+.footer{padding:28px 0;background:#fff;border-top:1px solid #e5efee}
+.footer-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;color:#718783;font-size:12px}
+.footer .logo{height:42px}
+.float-wa{position:fixed;right:22px;bottom:22px;z-index:999;display:flex;align-items:center;gap:10px;padding:12px 16px;border-radius:999px;background:#16a765;color:#fff;font-weight:800;box-shadow:0 12px 30px rgba(0,0,0,.22);border:3px solid #fff}
+.float-wa .bubble{width:42px;height:42px;border-radius:50%;background:#fff;color:#16a765;display:flex;align-items:center;justify-content:center}
+.float-wa small{display:block;font-size:10px;font-weight:600;opacity:.9}
+.notice{font-size:12px;color:#718783;background:#f8fbfb;padding:26px 0}
+@media(max-width:900px){
+  .navlinks a:not(.btn){display:none}
+  .hero-grid,.explain,.explain.reverse,.home-grid{grid-template-columns:1fr}
+  .explain.reverse .explain-media{order:2}
+  .products{grid-template-columns:1fr}
+  .hero-media img{height:390px}
+  .home-photo img{height:360px}
+  .regs{grid-template-columns:1fr}
+  .cta{flex-direction:column;align-items:flex-start}
+  .footer-inner{flex-direction:column;align-items:flex-start}
+  .float-wa span.label{display:none}
+}
 </style>
-<!-- Meta Pixel Code --><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1135188452165863');fbq('track','PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1135188452165863&ev=PageView&noscript=1"></noscript>
-</head><body>
-<header><div class="wrap nav"><div class="brand"><span>Aloka</span> Homecare</div><a class="btn wa" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi%20mengenai%20Secretome%20atau%20Stem%20Cell.">Konsultasi WhatsApp</a></div></header>
-<main><section class="hero"><div class="wrap"><div class="eyebrow">REGENERATIVE CARE INFORMATION</div><h1>Secretome & Stem Cell Care</h1><p class="lead">Kenali pilihan produk dan layanan terlebih dahulu, lalu konsultasikan kebutuhan Anda bersama Aloka Homecare sebelum menentukan layanan.</p><div class="actions"><a class="btn wa" href="https://wa.me/628980111168?text=Halo%20Aloka%2C%20saya%20ingin%20tanya%20tentang%20Secretome%20atau%20Stem%20Cell.">Tanya Sekarang</a><a class="btn alt" href="#pelajari">Pelajari Dulu ↓</a></div><div class="trust"><span class="pill">Informasi registrasi tersedia</span><span class="pill">Tenaga medis berizin</span><span class="pill">Home visit tersedia</span></div></div></section>
-<section class="section" id="pelajari"><div class="wrap"><h2>Pilihan layanan</h2><p class="lead">Informasi singkat untuk membantu Anda memahami perbedaannya sebelum konsultasi.</p><div class="grid">
-<div class="card"><h3>Secretome</h3><p>Secretome adalah kumpulan faktor bioaktif yang dilepaskan oleh sel, termasuk protein dan molekul pensinyalan. Pemilihan dan penggunaannya perlu disesuaikan dengan kebutuhan serta arahan tenaga kesehatan.</p><div class="strike">Rp5.000.000</div><div class="price">Rp2.500.000*</div><a class="btn wa" href="https://wa.me/628980111168?text=Halo%20Aloka%2C%20saya%20ingin%20informasi%20Secretome.">Tanya Secretome</a></div>
-<div class="card"><h3>Stem Cell</h3><p>Stem cell atau sel punca adalah sel yang memiliki kemampuan memperbarui diri dan berdiferensiasi. Terapi berbasis sel memerlukan penilaian medis, indikasi yang sesuai, dan fasilitas serta tenaga yang berwenang.</p><div class="price">Konsultasikan</div><a class="btn wa" href="https://wa.me/628980111168?text=Halo%20Aloka%2C%20saya%20ingin%20informasi%20Stem%20Cell.">Tanya Stem Cell</a></div>
-<div class="card"><h3>Secretome Topical Gel</h3><p>Sediaan topical untuk penggunaan pada area kulit sesuai petunjuk penggunaan produk. Tanyakan terlebih dahulu mengenai kesesuaian penggunaan dan ketersediaan.</p><div class="price">Rp250.000*</div><a class="btn wa" href="https://wa.me/628980111168?text=Halo%20Aloka%2C%20saya%20ingin%20informasi%20Secretome%20Topical%20Gel.">Tanya Topical Gel</a></div>
-</div><p class="note">*Harga promo dan ketersediaan dapat berubah. Syarat dan ketentuan berlaku.</p></div></section>
-<section class="section info"><div class="wrap two"><div class="box"><h2>Apa itu Secretome?</h2><p>Secretome merujuk pada berbagai substansi yang disekresikan sel ke lingkungan sekitarnya. Kandungannya dapat mencakup faktor pertumbuhan, sitokin, protein, dan vesikel ekstraseluler. Manfaat klinis, rute pemberian, dosis, dan kesesuaian untuk seseorang tidak dapat disamaratakan dan perlu dinilai secara profesional.</p></div><div class="box"><h2>Apa itu Stem Cell?</h2><p>Stem cell adalah sel dengan kemampuan memperbanyak diri dan berkembang menjadi jenis sel tertentu. Penggunaan klinisnya bergantung pada jenis sel, indikasi, bukti ilmiah, regulasi, dan penilaian medis. Konsultasi diperlukan sebelum menjalani tindakan.</p></div></div></section>
-<section class="section"><div class="wrap two"><div><h2>Home Visit</h2><p class="lead">Aloka Homecare dapat membantu koordinasi layanan tenaga medis yang memiliki surat izin praktik/izin profesional yang sesuai untuk layanan yang memang dapat dilakukan di rumah.</p><p>Untuk tindakan yang membutuhkan fasilitas khusus atau tidak sesuai dilakukan di rumah, pasien akan diarahkan untuk mendapatkan layanan di fasilitas kesehatan yang tepat.</p></div><div class="cta"><h2>Konsultasikan kebutuhan Anda</h2><p>Sampaikan kebutuhan, usia, riwayat kesehatan yang relevan, dan layanan yang ingin ditanyakan. Tim akan membantu menjelaskan langkah berikutnya.</p><a class="btn wa" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi.">Chat WhatsApp</a></div></div></section>
-<section class="section"><div class="wrap"><h2>Informasi registrasi</h2><div class="box"><p><strong>Nomor yang dicantumkan:</strong><br>BPOM: PW-S.01.04.1.3.333.03.25-0034<br>Kemenkes: 03032200130070009</p><p class="note">Nomor registrasi/izin harus diverifikasi terhadap produk, produsen, kategori, dan ruang lingkup izin yang tepat sebelum digunakan sebagai klaim pemasaran. Informasi pada halaman ini tidak menggantikan konsultasi atau diagnosis medis.</p></div></div></section></main>
-<footer><div class="wrap"><strong>Aloka Homecare</strong><br>Informasi layanan dan konsultasi: +62 898-0111-168<br><br>Konten bersifat informatif. Hasil dan kesesuaian layanan berbeda pada setiap individu. Syarat dan ketentuan berlaku.</div></footer>
-<script>document.querySelectorAll('a.wa').forEach(function(a){a.addEventListener('click',function(){if(typeof fbq==='function'){fbq('track','Contact')}})});</script>
-</body></html>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1135188452165863');fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1135188452165863&ev=PageView&noscript=1"></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<style>
+/* Refined WhatsApp floating CTA */
+.float-wa{
+  background:#fff!important;color:#146b54!important;
+  border:1px solid #d7eee7!important;padding:8px 14px 8px 8px!important;
+  box-shadow:0 12px 32px rgba(14,90,72,.22)!important
+}
+.float-wa .bubble{
+  width:48px!important;height:48px!important;background:#25D366!important;
+  color:#fff!important;border-radius:50%!important;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.3)!important
+}
+.float-wa .bubble .wa-icon,.float-wa .bubble svg{
+  width:28px!important;height:28px!important;display:block!important
+}
+.float-wa .label{line-height:1.15!important}
+.float-wa .label small{margin-top:3px!important;color:#4e6d66!important;opacity:1!important}
+@media(max-width:900px){
+  .float-wa{padding:7px!important;border-radius:999px!important}
+  .float-wa .bubble{width:50px!important;height:50px!important}
+}
+</style>
+
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container nav-inner">
+    <img class="logo" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img1.b64" alt="Aloka Homecare">
+    <div class="navlinks">
+      <a href="#secretome">Secretome</a>
+      <a href="#stemcell">Stem Cell</a>
+      <a href="#produk">Produk</a>
+      <a href="#homevisit">Home Visit</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi%20mengenai%20Secretome%20atau%20Stem%20Cell." target="_blank">
+        <svg class="wa-icon" viewBox="0 0 32 32" fill="currentColor"><path d="M19.11 17.2c-.29-.15-1.7-.84-1.96-.94-.26-.1-.45-.15-.64.15-.19.29-.74.94-.9 1.13-.17.19-.33.22-.62.07-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.59.13-.13.29-.33.43-.5.15-.17.19-.29.29-.49.1-.19.05-.36-.02-.5-.07-.15-.64-1.54-.88-2.11-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.36-.26.29-1  .98-1 2.4 0 1.41 1.03 2.78 1.17 2.97.15.19 2.02 3.08 4.89 4.32.68.29 1.21.47 1.63.6.68.22 1.3.19 1.79.12.55-.08 1.7-.69 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.19-.55-.34z"/><path d="M16.03 3C8.84 3 3 8.75 3 15.84c0 2.53.75 5 2.17 7.11L3 29l6.28-2.06a13.1 13.1 0 0 0 6.74 1.84h.01C23.21 28.78 29 23.03 29 15.94 29 8.85 23.22 3 16.03 3zm0 23.61h-.01a10.9 10.9 0 0 1-5.58-1.53l-.4-.24-3.73 1.22 1.25-3.59-.26-.41a10.66 10.66 0 0 1-1.69-5.77c0-5.89 4.82-10.69 10.76-10.69 2.87 0 5.57 1.11 7.6 3.13a10.6 10.6 0 0 1 3.15 7.55c0 5.89-4.82 10.69-10.75 10.69z"/></svg>
+        Konsultasi WhatsApp
+      </a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="kicker">REGENERATIVE MEDICINE</span>
+      <h1>Secretome &<br>Stem Cell Care</h1>
+      <p class="lead">Kenali lebih dahulu Secretome dan Stem Cell, pilih produk atau layanan yang sesuai, lalu konsultasikan kebutuhan Anda bersama Aloka Homecare.</p>
+      <div class="hero-actions">
+        <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20tanya%20promo%20Secretome." target="_blank">Tanya Sekarang</a>
+        <a class="btn alt" href="#secretome">Pelajari Dulu ↓</a>
+      </div>
+      <div class="trust">
+        <span>✓ Informasi registrasi tersedia</span>
+        <span>✓ Tenaga medis berizin</span>
+        <span>✓ Home Visit tersedia</span>
+      </div>
+    </div>
+    <div class="hero-media">
+      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img2.b64" alt="Produk Secretome">
+      <div class="price-badge">
+        <small>SPECIAL OFFER</small>
+        <del>Rp5.000.000</del>
+        <strong>Rp2.500.000</strong>
+        <small>*S&K berlaku</small>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="secretome">
+  <div class="container">
+    <div class="explain">
+      <div>
+        <span class="kicker">SECRETOME</span>
+        <h2>Apa Itu Secretome?</h2>
+        <p>Secretome adalah kumpulan berbagai molekul biologis yang dilepaskan oleh sel ke lingkungan sekitarnya. Secretome dapat mengandung growth factors, cytokines, chemokines, extracellular vesicles, dan molekul bioaktif lainnya.</p>
+        <p>Berbeda dengan terapi berbasis sel hidup, Secretome merupakan produk yang berasal dari zat-zat yang disekresikan oleh sel.</p>
+        <div class="quote"><strong>Sederhananya:</strong><br>Stem Cell adalah sel hidupnya, sedangkan Secretome adalah kumpulan zat atau sinyal biologis yang dilepaskan oleh sel tersebut.</div>
+        <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi%20Secretome." target="_blank">Konsultasi Secretome</a>
+      </div>
+      <div class="explain-media"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img2.b64" alt="Secretome SCCR"></div>
+    </div>
+
+    <div class="explain reverse" id="stemcell">
+      <div class="explain-media"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img3.b64" alt="Stem Cell UC-MSC Ready to Inject"></div>
+      <div>
+        <span class="kicker">STEM CELL</span>
+        <h2>Apa Itu Stem Cell?</h2>
+        <p>Stem Cell atau sel punca adalah sel hidup yang memiliki kemampuan untuk memperbarui dirinya sendiri dan, tergantung jenis serta kondisinya, dapat berkembang menjadi jenis sel tertentu.</p>
+        <p>Dalam penggunaan medis, jenis produk, kondisi pasien, indikasi, dan kelayakan tindakan perlu dievaluasi terlebih dahulu sesuai ketentuan yang berlaku.</p>
+        <div class="quote"><strong>Penting:</strong><br>Stem Cell bukan terapi yang otomatis cocok untuk semua orang. Assessment dan evaluasi medis tetap diperlukan.</div>
+        <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi%20Stem%20Cell." target="_blank">Konsultasi Stem Cell</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section compare-wrap">
+  <div class="container">
+    <div class="section-title">
+      <span class="kicker">SECRETOME VS STEM CELL</span>
+      <h2>Apa Perbedaannya?</h2>
+    </div>
+    <div class="compare">
+      <table>
+        <thead><tr><th>Aspek</th><th>Secretome</th><th>Stem Cell</th></tr></thead>
+        <tbody>
+          <tr><td>Bentuk dasarnya</td><td>Molekul atau zat yang disekresikan oleh sel</td><td>Sel hidup</td></tr>
+          <tr><td>Komponen utama</td><td>Growth factors, cytokines, chemokines, extracellular vesicles, dll.</td><td>Sel punca sesuai jenis produknya</td></tr>
+          <tr><td>Apakah sama?</td><td>Tidak. Secretome bukan Stem Cell.</td><td>Tidak. Stem Cell merupakan produk berbasis sel.</td></tr>
+          <tr><td>Perlu konsultasi?</td><td>Ya, terutama untuk tindakan medis</td><td>Ya, memerlukan evaluasi medis</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="produk">
+  <div class="container">
+    <div class="section-title">
+      <span class="kicker">PILIHAN PRODUK & LAYANAN</span>
+      <h2>Konsultasikan Pilihan yang Sesuai</h2>
+    </div>
+    <div class="products">
+      <div class="card">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img4.b64" alt="Secretome Topical Gel">
+        <div class="card-body">
+          <div class="tag">TOPICAL</div>
+          <h3>Secretome Topical Gel</h3>
+          <p>Secretome dalam bentuk gel untuk penggunaan luar, sesuai petunjuk dan peruntukan produk.</p>
+          <div class="price">Rp250.000</div>
+          <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20pesan%20Secretome%20Topical%20Gel%20Rp250.000." target="_blank">Pesan Sekarang</a>
+        </div>
+      </div>
+
+      <div class="card featured">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img2.b64" alt="Secretome">
+        <div class="card-body">
+          <div class="tag">SECRETOME</div>
+          <h3>Secretome</h3>
+          <p>Produk berbasis komponen yang disekresikan oleh sel. Konsultasikan jenis produk dan prosedur yang sesuai.</p>
+          <div class="price"><span class="old">Rp5.000.000</span>Rp2.500.000</div>
+          <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20tertarik%20promo%20Secretome%20Rp2.500.000." target="_blank">Tanya Promo</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img3.b64" alt="Stem Cell UC-MSC">
+        <div class="card-body">
+          <div class="tag">CELL BASED</div>
+          <h3>Stem Cell (UC-MSC)</h3>
+          <p>Produk berbasis sel yang penggunaannya memerlukan penilaian, prosedur, dan pengawasan sesuai kebutuhan serta ketentuan medis.</p>
+          <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi%20Stem%20Cell%20UC-MSC." target="_blank">Konsultasi Sekarang</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section home" id="homevisit">
+  <div class="container home-grid">
+    <div class="home-photo"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img5.b64" alt="Home visit tenaga medis"></div>
+    <div>
+      <span class="kicker">MEDICAL HOME VISIT</span>
+      <h2>Tenaga Medis Datang ke Rumah</h2>
+      <p>Untuk layanan yang memenuhi ketentuan, tenaga kesehatan dapat melakukan kunjungan ke rumah atau lokasi yang disepakati.</p>
+      <div class="check"><span class="dot">✓</span><div><strong>Tenaga medis bersurat izin resmi</strong><br>Pelayanan dilakukan sesuai kompetensi dan kewenangan tenaga kesehatan.</div></div>
+      <div class="check"><span class="dot">✓</span><div><strong>Assessment sebelum tindakan</strong><br>Kelayakan tindakan dan kebutuhan pasien dinilai terlebih dahulu.</div></div>
+      <div class="check"><span class="dot">✓</span><div><strong>Lebih nyaman dari rumah</strong><br>Jadwal dan area kunjungan mengikuti ketersediaan tenaga medis.</div></div>
+      <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20jadwalkan%20Home%20Visit." target="_blank">Jadwalkan Home Visit</a>
+
+      <div class="regs">
+        <div class="reg"><small>Informasi Registrasi BPOM</small><strong>PW-S.01.04.1.3.333.03.25-0034</strong></div>
+        <div class="reg"><small>Informasi Kementerian Kesehatan</small><strong>03032200130070009</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="container">
+    <div class="section-title">
+      <span class="kicker">FAQ</span>
+      <h2>Pertanyaan yang Sering Ditanyakan</h2>
+    </div>
+    <div class="faq">
+      <details><summary>Apakah Secretome sama dengan Stem Cell?</summary><p>Tidak. Stem Cell merupakan sel hidup, sedangkan Secretome merupakan berbagai zat atau molekul yang disekresikan oleh sel.</p></details>
+      <details><summary>Apakah tindakan dapat dilakukan di rumah?</summary><p>Untuk layanan yang memenuhi ketentuan, home visit dapat tersedia setelah assessment dan penilaian kebutuhan.</p></details>
+      <details><summary>Siapa yang melakukan tindakan?</summary><p>Tindakan dilakukan oleh tenaga kesehatan sesuai kompetensi, kewenangan, dan dokumen perizinan profesinya.</p></details>
+      <details><summary>Apakah semua orang cocok menggunakan Secretome atau Stem Cell?</summary><p>Tidak selalu. Kondisi kesehatan, indikasi, jenis produk, dan rencana tindakan perlu dievaluasi terlebih dahulu.</p></details>
+      <details><summary>Bagaimana mendapatkan harga promo Rp2.500.000?</summary><p>Hubungi tim Aloka Homecare melalui WhatsApp untuk informasi paket, ketersediaan, dan syarat promo yang sedang berlaku.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:20px">
+  <div class="container">
+    <div class="cta">
+      <div>
+        <h2 style="margin-bottom:8px">Mulai Konsultasi Sekarang</h2>
+        <p>Dapatkan informasi lengkap mengenai produk, layanan, jadwal dan promo melalui WhatsApp kami.</p>
+      </div>
+      <a class="btn alt" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi." target="_blank">Konsultasi via WhatsApp<br>+62 898-0111-168</a>
+    </div>
+  </div>
+</section>
+
+<div class="notice">
+  <div class="container">
+    <strong>Informasi penting:</strong> Informasi pada halaman ini bersifat umum dan bukan pengganti diagnosis atau konsultasi dokter. Kelayakan penggunaan produk atau tindakan medis ditentukan berdasarkan kondisi pasien, indikasi, assessment tenaga medis, dan ketentuan yang berlaku. Hasil dapat berbeda pada setiap individu. Syarat dan ketentuan berlaku.
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <img class="logo" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-b64-src="assets/img1.b64" alt="Aloka Homecare">
+    <div>© 2026 Aloka Homecare. All Rights Reserved.</div>
+    <div>Care with Heart</div>
+  </div>
+</footer>
+
+<a class="float-wa" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20konsultasi." target="_blank" aria-label="Chat WhatsApp">
+  <span class="bubble">
+    <svg class="wa-icon" viewBox="0 0 32 32" fill="currentColor"><path d="M19.11 17.2c-.29-.15-1.7-.84-1.96-.94-.26-.1-.45-.15-.64.15-.19.29-.74.94-.9 1.13-.17.19-.33.22-.62.07-.29-.15-1.22-.45-2.32-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.45.13-.59.13-.13.29-.33.43-.5.15-.17.19-.29.29-.49.1-.19.05-.36-.02-.5-.07-.15-.64-1.54-.88-2.11-.23-.56-.47-.48-.64-.49h-.55c-.19 0-.5.07-.76.36-.26.29-1  .98-1 2.4 0 1.41 1.03 2.78 1.17 2.97.15.19 2.02 3.08 4.89 4.32.68.29 1.21.47 1.63.6.68.22 1.3.19 1.79.12.55-.08 1.7-.69 1.94-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.19-.55-.34z"/><path d="M16.03 3C8.84 3 3 8.75 3 15.84c0 2.53.75 5 2.17 7.11L3 29l6.28-2.06a13.1 13.1 0 0 0 6.74 1.84h.01C23.21 28.78 29 23.03 29 15.94 29 8.85 23.22 3 16.03 3zm0 23.61h-.01a10.9 10.9 0 0 1-5.58-1.53l-.4-.24-3.73 1.22 1.25-3.59-.26-.41a10.66 10.66 0 0 1-1.69-5.77c0-5.89 4.82-10.69 10.76-10.69 2.87 0 5.57 1.11 7.6 3.13a10.6 10.6 0 0 1 3.15 7.55c0 5.89-4.82 10.69-10.75 10.69z"/></svg>
+  </span>
+  <span class="label">Chat Sekarang<small>+62 898-0111-168</small></span>
+</a>
+
+
+<script>
+document.querySelectorAll('img[data-b64-src]').forEach(function(img){
+  fetch(img.getAttribute('data-b64-src'))
+    .then(function(r){return r.text()})
+    .then(function(b64){img.src='data:image/webp;base64,'+b64.trim()});
+});
+document.querySelectorAll('a[href*="wa.me/628980111168"]').forEach(function(a){
+  a.addEventListener('click',function(){
+    if(typeof fbq==='function'){fbq('track','Contact')}
+  });
+});
+</script>
+
+</body>
+</html>
