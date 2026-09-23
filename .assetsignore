@@ -1,9 +1,14 @@
 .git/**
-.git/**
 .github/**
 node_modules/**
+.wrangler/**
+dist/**
 package.json
 bun.lock
 package-lock.json
 wrangler.jsonc
 .assetsignore
+.gitignore
+build.py
+README.md
+docs/**
