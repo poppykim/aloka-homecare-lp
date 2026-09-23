@@ -53,3 +53,12 @@ Cloudflare reference: https://developers.cloudflare.com/pages/configuration/cust
 
 `python3 build.py secretome`, `python3 build.py ctl`, `python3 build.py rollator`.
 Static source checks cover asset existence, encoded WhatsApp links, metadata and monetary/promotion patterns. Browser checks cover images, layout and CTA URLs. Keep runtime/public outputs free of source-history files and deployment credentials.
+
+## Verified deployment status — 23 September 2026
+
+Commit a419627f4b604340c143edd623e00735d53ea152 deployed automatically to the existing static Worker. Verified HTTP 200 and asset checks for:
+- https://aloka-homecare-lp.kim-poppy-w.workers.dev/
+- https://aloka-homecare-lp.kim-poppy-w.workers.dev/ctl/
+- https://aloka-homecare-lp.kim-poppy-w.workers.dev/rollator/
+
+https://sekretom.alokahomecare.com/ also serves the updated clean page (GitHub Pages DNS). Custom-domain cutover remains pending. CTL/Rollator custom domains still serve the old hosting; the new clean versions are at the Worker URLs above. The separate Pages setup described earlier is a pending cutover plan, not a claim that Pages projects have been created. No nameserver or main-site changes were made.
