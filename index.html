@@ -57,7 +57,7 @@ table{width:100%;border-collapse:collapse;background:#fff;min-width:720px}
 th,td{padding:16px 18px;border-bottom:1px solid #e5efee;text-align:left;vertical-align:top}
 th{background:var(--teal2);color:#fff}
 td:first-child{font-weight:800;color:#214d49}
-.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
 .card{border:1px solid var(--line);border-radius:20px;background:#fff;padding:14px;box-shadow:0 14px 34px rgba(18,82,76,.07)}
 .card.featured{border:2px solid #4cb9af;background:linear-gradient(180deg,#f8fffe,#edf9f6)}
 .card img{width:100%;height:220px;object-fit:cover;border-radius:15px;background:#eef7f6}
@@ -204,9 +204,13 @@ a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid
     <div>
       <span class="kicker">REGENERATIVE MEDICINE</span>
       <h1>Secretome &<br>Stem Cell Care</h1>
-      <p class="lead">Pahami sains di balik regenerative medicine. Kenali perbedaan Secretome dan Stem Cell, batas bukti penelitiannya, serta langkah konsultasi yang sesuai bersama Aloka Homecare.</p>
+      <p class="lead">Tubuh memiliki kemampuan luar biasa untuk memperbaiki dirinya sendiri.</p>
+      <p>Perkembangan regenerative medicine membuka peluang penelitian dan pengembangan terapi melalui pendekatan berbasis stem cell dan secretome. Bukti manfaat dan kesesuaiannya perlu dinilai untuk setiap kondisi.</p>
+      <p>Setiap pasien memiliki kondisi yang berbeda. Karena itu, kami memulai dengan <strong>konsultasi dokter, evaluasi kondisi pasien, serta penilaian indikasi dan keamanan.</strong></p>
+      <p>Ingin mengetahui apakah Anda merupakan kandidat yang sesuai? Konsultasikan kondisi Anda dengan dokter kami.</p>
+      <p><strong>Science. Safety. Personalized Care.</strong></p>
       <div class="hero-actions">
-        <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20yang%20tersedia." target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
+        <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20yang%20tersedia." target="_blank" rel="noopener noreferrer">Konsultasi dengan Dokter</a>
         <a class="btn alt" href="#secretome">Pelajari Dulu ↓</a>
       </div>
       <div class="trust">
@@ -288,14 +292,7 @@ a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid
       <p>Studi hewan membantu memahami mekanisme biologis. Laporan kasus manusia memberi pengamatan awal. Keduanya belum cukup untuk menetapkan efektivitas, keamanan jangka panjang, atau indikasi klinis rutin pada semua pasien.</p>
     </div>
     <div class="research-grid">
-      <article class="research-card">
-        <span class="evidence-label">PRAKLINIS · HEWAN</span>
-        <h3>Penyembuhan luka</h3>
-        <p>Penelitian pada 24 tikus menguji gel medium terkondisi MSC hipoksia dan mengamati VEGF serta kolagen dalam proses penyembuhan luka.</p>
-        <p class="limit"><strong>Batas bukti:</strong> hasil pada hewan bukan bukti efektivitas pada luka manusia, dan tidak otomatis berlaku untuk gel atau injeksi yang berbeda.</p>
-        <a class="source-link" href="#sumber-2">Baca sumber penelitian <span aria-hidden="true">↗</span></a>
-      </article>
-      <article class="research-card">
+<article class="research-card">
         <span class="evidence-label">LAPORAN KASUS · 1 PASIEN</span>
         <h3>Psoriasis</h3>
         <p>Laporan penggunaan secretome MSC dari Wharton’s jelly pada satu pasien psoriasis mencatat penurunan skor keparahan kulit (PASI).</p>
@@ -334,18 +331,7 @@ a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid
       <p>Mulai dari penilaian medis, bukan memilih tindakan berdasarkan nama penyakit. Kelayakan terapi ditentukan melalui penilaian medis.</p>
     </div>
     <div class="products">
-      <div class="card">
-        <img src="assets/secretome/1930d422f468.webp" alt="Secretome Topical Gel">
-        <div class="card-body">
-          <div class="tag">TOPICAL</div>
-          <h3>Secretome Topical Gel</h3>
-          <p>Gel untuk penggunaan luar sesuai petunjuk dan peruntukan produk. Bukti penelitian pada sediaan lain tidak otomatis berlaku untuk produk ini.</p>
-          <div class="contact-note">Hubungi kami</div>
-          <a class="btn" href="https://wa.me/628980111168?text=Halo%20Aloka%20Homecare%2C%20saya%20ingin%20berkonsultasi%20mengenai%20layanan%20yang%20tersedia." target="_blank" rel="noopener noreferrer">Hubungi Kami</a>
-        </div>
-      </div>
-
-      <div class="card featured">
+<div class="card featured">
         <img src="assets/secretome/09f49c0bf0af.webp" alt="Secretome">
         <div class="card-body">
           <div class="tag">SECRETOME</div>
@@ -423,13 +409,12 @@ a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid
     <h2 id="referensi-title">Referensi Ilmiah</h2>
     <p>Disusun untuk edukasi oleh Aloka Homecare. SCCR Indonesia menjadi sumber utama informasi ilmiah; penyebutan sumber tidak menyatakan dukungan atau kemitraan. Layanan dan konsultasi pada halaman ini tetap melalui Aloka Homecare.</p>
     <ol class="source-list">
-      <li id="sumber-1"><a href="https://sccr.id/apa-itu-secretome/" target="_blank" rel="noopener noreferrer">SCCR — Apa Itu Secretome?</a><span>Penjelasan komponen, mekanisme, potensi, dan batas perkembangan riset.</span></li>
-      <li id="sumber-2"><a href="https://sccr.id/the-role-of-hypoxic-mesenchymal-stem-cells-conditioned-medium-in-increasing-vascular-endothelial-growth-factors-vegf-levels-and-collagen-synthesis-to-accelerate-wound-healing/" target="_blank" rel="noopener noreferrer">SCCR — Medium terkondisi MSC hipoksia, VEGF, dan penyembuhan luka</a><span>Studi hewan; bukan uji klinis gel yang ditawarkan di halaman ini.</span></li>
-      <li id="sumber-3"><a href="https://sccr.id/therapeutic-potential-of-whartons-jellymesenchymal-stem-cells-derived-secretomes-mscs-in-psoriasis-vulgaris-a-case-study/" target="_blank" rel="noopener noreferrer">SCCR — Secretome MSC pada psoriasis vulgaris</a><span>Laporan kasus satu pasien, bukan uji klinis terkontrol.</span></li>
-      <li id="sumber-4"><a href="https://sccr.id/suppression-of-transforming-growth-factor-%CE%B2-by-mesenchymal-stem-cells-accelerates-liver-regeneration-in-liver-fibrosis-animal-model/" target="_blank" rel="noopener noreferrer">SCCR — MSC dan TGF-β pada model fibrosis hati</a><span>Studi sel MSC pada tikus.</span></li>
-      <li id="sumber-5"><a href="https://sccr.id/mscs-regulate-pdgf-and-vegf-levels-in-inflammation-and-remodeling-phases-diabetes-islet-cell-regeneration-in-review/" target="_blank" rel="noopener noreferrer">SCCR — MSC, PDGF/VEGF, dan model diabetes</a><span>Studi hewan; tidak menetapkan pengganti terapi diabetes manusia.</span></li>
-      <li id="sumber-6"><a href="https://stemcells.nih.gov/info/basics" target="_blank" rel="noopener noreferrer">NIH — Introduction to Stem Cells</a><span>Dasar biologi dan perbedaan jenis sel punca.</span></li>
-      <li id="sumber-7"><a href="https://www.cancer.gov/about-cancer/treatment/types/stem-cell-transplant" target="_blank" rel="noopener noreferrer">NCI — Stem Cell Transplants in Cancer Treatment</a><span>Konteks penggunaan sel punca pembentuk darah; berbeda dari UC-MSC dan Secretome.</span></li>
+      <li id="sumber-1" value="1"><a href="https://sccr.id/apa-itu-secretome/" target="_blank" rel="noopener noreferrer">SCCR — Apa Itu Secretome?</a><span>Penjelasan komponen, mekanisme, potensi, dan batas perkembangan riset.</span></li>
+      <li id="sumber-3" value="3"><a href="https://sccr.id/therapeutic-potential-of-whartons-jellymesenchymal-stem-cells-derived-secretomes-mscs-in-psoriasis-vulgaris-a-case-study/" target="_blank" rel="noopener noreferrer">SCCR — Secretome MSC pada psoriasis vulgaris</a><span>Laporan kasus satu pasien, bukan uji klinis terkontrol.</span></li>
+      <li id="sumber-4" value="4"><a href="https://sccr.id/suppression-of-transforming-growth-factor-%CE%B2-by-mesenchymal-stem-cells-accelerates-liver-regeneration-in-liver-fibrosis-animal-model/" target="_blank" rel="noopener noreferrer">SCCR — MSC dan TGF-β pada model fibrosis hati</a><span>Studi sel MSC pada tikus.</span></li>
+      <li id="sumber-5" value="5"><a href="https://sccr.id/mscs-regulate-pdgf-and-vegf-levels-in-inflammation-and-remodeling-phases-diabetes-islet-cell-regeneration-in-review/" target="_blank" rel="noopener noreferrer">SCCR — MSC, PDGF/VEGF, dan model diabetes</a><span>Studi hewan; tidak menetapkan pengganti terapi diabetes manusia.</span></li>
+      <li id="sumber-6" value="6"><a href="https://stemcells.nih.gov/info/basics" target="_blank" rel="noopener noreferrer">NIH — Introduction to Stem Cells</a><span>Dasar biologi dan perbedaan jenis sel punca.</span></li>
+      <li id="sumber-7" value="7"><a href="https://www.cancer.gov/about-cancer/treatment/types/stem-cell-transplant" target="_blank" rel="noopener noreferrer">NCI — Stem Cell Transplants in Cancer Treatment</a><span>Konteks penggunaan sel punca pembentuk darah; berbeda dari UC-MSC dan Secretome.</span></li>
     </ol>
     <details class="source-details">
       <summary>Konteks informasi sertifikasi SCCR</summary>
